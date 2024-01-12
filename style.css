@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: FFFFFF;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#imagenUnico {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+#segundo {
+  width: 280px;
+  height: 520px;
+  position: absolute;
+  top: 60px;
+  left: 365px;
+}
+
+#primero {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+#divImagen {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#contenido {
+  float: left;
+  width: 40%;
+  height: 100%;
+  border: 1px solid rgb(128, 128, 128);
+}
+
+#flex-center {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.separacion {
+  border-bottom: 1px solid black;
+  width: 150px;
+  height: 1px;
+
+}
+
+.imagen,
+#microsoft {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 20px;
+  left: 150px;
+}
+
+#microsoft {
+  left: 300px;
+}
+
+p,
+input,
+button {
+  width: 300px;
+  height: 30px;
+  display: block;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+button {
+  background-color: #70B5F9;
+}
+
+
+#imagenFacebook {
+margin-right: 5px;
+
+}
+
+#facebook {
+  margin-left:10px;
+  text-align: center;
+  color: #385185;
+  
+}
+
+#registrate {
+
+  border: 1px solid black;
+}
+
+a{
+ color: #385185;
+  margin-left: 10px;
+}
